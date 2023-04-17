@@ -17,7 +17,7 @@
     />
   </head>
   <body class="body">
-    <!-- <header class="header">
+    <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
           <a href="" class="header-logo link"
@@ -51,8 +51,81 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg width="16" height="16" class="menu-open">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu" data-menu>
+        <button class="menu-close-btn" data-menu-close type="button">
+          <svg width="16" height="16" class="menu-close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+         <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a href="./index.html" class="header-link link current">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="./portfolio.html" class="header-link link">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <address class="mob-menu-connect">
+          <ul class="mob-menu-connect-list list">
+             <li class="mob-menu-connect-item">
+              <a href="tel:+110001111111" class="mob-menu-connect-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-menu-connect-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mob-menu-mail-connect-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+          <ul class="mob-menu-list-svg list">
+              <li class="mob-menu-item-svg">
+                <a class="mob-menu-link-svg link" href="">
+                  <svg width="16" height="16" class="mob-menu-ikon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-item-svg">
+                <a class="mob-menu-link-svg link" href="">
+                  <svg width="16" height="16" class="mob-menu-ikon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-item-svg">
+                <a class="mob-menu-link-svg link" href="">
+                  <svg width="16" height="16" class="mob-menu-ikon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-item-svg">
+                <a class="mob-menu-link-svg link" href="">
+                  <svg width="16" height="16" class="mob-menu-ikon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+      
+    </header>
     <main>
       <section class="service">
         <div class="container">
@@ -67,6 +140,20 @@
           <h2 hidden class="skill-title">Your Business</h2>
           <ul class="skill-list list">
             <li class="skill-item">
+               <div class="skill-svg">
+                <svg width="64" heidth="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <picture>
+                <source
+                srcset="
+                ./images/skill-img-1.jpeg 1x
+                ./images/skill-img-1-2x.jpeg 2x
+                "
+                media="(min-width: 1200px)"
+                />
+              </picture>
               <h3 class="skill-title">Strategy</h3>
               <p class="skill-text">
                 Our goal is to identify the business problem to walk away with
@@ -75,12 +162,22 @@
             </li>
             <li class="skill-item">
               <h3 class="skill-title">Punctuality</h3>
+               <div class="skill-svg">
+                <svg width="64" heidth="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <p class="skill-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li class="skill-item">
+               <div class="skill-svg">
+                <svg width="64" heidth="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="skill-title">Diligence</h3>
               <p class="skill-text">
                 Research and confirm brands that present the strongest digital
@@ -88,6 +185,11 @@
               </p>
             </li>
             <li class="skill-item">
+               <div class="skill-svg">
+                <svg width="64" heidth="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="skill-title">Technologies</h3>
               <p class="skill-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -473,5 +575,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
