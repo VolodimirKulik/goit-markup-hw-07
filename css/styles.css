@@ -583,6 +583,7 @@ img {
     background: #2E2F42;
 }
 .container-footer{
+    
 }
 .footer-logo {
     font-family: 'Raleway';
@@ -935,5 +936,163 @@ img {
 @media screen and (min-width:766px) {
     .container {
         width: 720px;
+    }
+    .service{
+        width: 768px;
+        height: 436px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficetablet.jpg);
+    }
+    .service-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin: 0px 97px 0px 97px;
+    }
+    .service-btn{
+        margin-top: 36px;
+    }
+    .container-footer-logo{
+       margin-top: 10px;
+       margin-left: 69px;
+       justify-content: center;
+    }
+    .container-footer-info {
+        display: flex;
+    }
+    .footer-title{
+        margin: 10px 0px 16px 0px;
+        justify-content: start;
+        display: flex;
+    }
+    .footer-logo{
+        margin-bottom: 16px;
+        justify-content: start;
+    }
+    .footer-text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        margin: 0px 0px 0px 0px;
+    }
+    .container-footer-content{
+        margin-right: 126px;
+        margin-left: 24px;
+    }
+    .footer-list-svg{
+        gap: 16px;
+    }
+    .footer-link-svg{
+        background: #4D5AE5;
+    }
+    .footer-input{
+        width: 264px;
+        height: 40px;
+        margin-left: 69px;
+        margin-right: 24px;
+    }
+    .footer-button{
+        background: #4D5AE5;
+        padding: 8px 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        gap: 16px;
+        border-radius: 4px;
+        border: 0;
+        display: inline-flex;
+    }
+    .footer-title-sub{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 0px 16px 69px;
+    }
+    .footer-container-form{
+        margin-top: 21px;
+    }
+    .team-list{
+        gap: 64px 24px;
+    }
+    .team{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .customers-list{
+        gap: 72px 24px;
+    }
+    .skill-item{
+        flex-basis: 44%;
+    }
+    .skill-title{
+        text-align: inherit;
+    }
+    .skill-text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container{
+        width: 1440px;
+    }
+    .service {
+        width: 1440px;
+        height: 600px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+    }
+    .service-title {
+        padding: 188px 0px 0px 0px;
+    }
+    .service-btn{
+        margin-top: 48px;
+    }
+    .skill-item{
+
+    }
+    .skill-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .skill-text{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;     
+            color: #434455;
+            flex: none;
+            order: 2;
+            flex-grow: 0;
     }
 }
