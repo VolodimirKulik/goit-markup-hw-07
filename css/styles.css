@@ -28,6 +28,7 @@ img {
 .link{
     text-decoration: none;
 }
+
 .list{
     list-style: none;
     padding: 0;
@@ -98,7 +99,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    
+    flex-direction: column;  
 }
 
 .menu-close-btn {
@@ -110,7 +111,7 @@ img {
     top: 0%;
     bottom: 0%;
     background: #E7E9FC;
-    border: 1px px solid #2E2F42;
+    border: 1px solid #2E2F42;
     border-radius: 50%;
     width: 24px;
     height: 24px;
@@ -126,7 +127,9 @@ img {
     display: block;
 }
 
-.mob-menu-list {}
+.mob-menu-list {
+    
+}
 
 .list {}
 
@@ -156,7 +159,7 @@ img {
 .mob-menu-connect {}
 
 .mob-menu-connect-list {
-    margin-top: 184px;
+    
 }
 
 .mob-menu-connect-item {
@@ -190,7 +193,7 @@ font-family: 'Roboto';
 }
 .mob-menu-list-svg {
     display: flex;
-    gap: 56px;
+    gap: 48px;
     justify-content: center;
 }
 
@@ -273,7 +276,7 @@ font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding-top: 96px;
     gap: 72px;
 }
 
@@ -298,8 +301,6 @@ font-family: 'Roboto';
     display: flex;
     gap: 72px;
     flex-wrap: wrap;
-    padding-top: 96px;
-    padding-bottom: 96px;
 }
 
 .skill-item {
@@ -826,7 +827,7 @@ font-family: 'Roboto';
     transition: opacity 250ms linear, visibility 250ms linear;
 }
 .modal {
-    width:408px;
+    width:100%;
     min-height:576px;
     padding: 25px 23px;
     background: #FCFCFC;
@@ -973,6 +974,19 @@ font-family: 'Roboto';
    background-repeat: no-repeat;
    background-position: center;
 }
+.policy{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: #4D5AE5;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 .check-text{
     display: flex;
     gap: 5px;
@@ -1020,6 +1034,9 @@ font-family: 'Roboto';
 @media screen and (min-width:768px) {
     .container {
         width: 720px;
+    }
+    .modal{
+        width: 408px;
     }
          .header-list {
              display: flex;
@@ -1072,7 +1089,6 @@ font-family: 'Roboto';
          }
     
          .header-connect-list {
-             display: flex;
              gap: 40px;
          }
     
@@ -1223,8 +1239,12 @@ font-family: 'Roboto';
     .container{
         width: 1440px;
     }
+         .modal {
+             width: 408px;
+         }
         .info {
             padding-bottom: 120px;
+            padding-top: 120px;
         }
         .skill-svg {
             width: 264px;
