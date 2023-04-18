@@ -1096,7 +1096,7 @@ font-family: 'Roboto';
     
          .header-connect-link {
              font-family: 'Roboto';
-             font-size: 16px;
+             font-size: 12px;
              line-height: 1.5;
              letter-spacing: 0.02em;
              color: #434455;
@@ -1113,7 +1113,7 @@ font-family: 'Roboto';
              color: #404BBF;
          }
     .service{
-        width: 768px;
+        max-width: 768px;
         height: 436px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficetablet.jpg);
     }
@@ -1238,9 +1238,9 @@ font-family: 'Roboto';
             display: none;
         }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1158px) {
     .container{
-        width: 1158px;
+        width: 1200px;
     }
         .check-text {
             width: 338px;
@@ -1322,7 +1322,7 @@ font-family: 'Roboto';
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 14px;
             letter-spacing: 0.04em;
             color: #434455;
@@ -1338,14 +1338,15 @@ font-family: 'Roboto';
             color: #404BBF;
         }
     .service {
-        width: 1440px;
+        max-width: 1440px;
         height: 600px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+        padding-top: 188px;
     }
     .service-title {
-        padding: 188px 0px 0px 0px;
-        margin-left: 295px;
-        margin-right: 296px;
+        padding:0px;
+        margin-left: 330px;
+        margin-right: 330px;
     }
     .service-btn{
         margin-top: 48px;
