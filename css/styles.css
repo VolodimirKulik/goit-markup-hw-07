@@ -352,7 +352,7 @@ font-family: 'Roboto';
     text-transform: capitalize;
     color: #2e2f42;
     margin: 0 0 72px 0;
-    
+    display: none;
 }
 
 .info-list {
@@ -362,7 +362,7 @@ font-family: 'Roboto';
 }
 
 .info-item {
-    
+    display: none;
 }
 .info-img {
     display: block;
@@ -1014,21 +1014,7 @@ font-family: 'Roboto';
     .container{
         width: 428px;
     }
-        .info-title {
-            font-size: 36px;
-            line-height: 1.11;
-            text-align: center;
-            text-transform: capitalize;
-            color: #2e2f42;
-            margin: 0 0 72px 0;
-            display: none;
-        }
-    
-        .info-list {
-            display: flex;
-            gap: 24px;
-            display: none;
-        }
+
 
 }
 @media screen and (min-width:768px) {
@@ -1391,6 +1377,20 @@ font-family: 'Roboto';
 .menu-open-btn{
     display: none;
 }
-
+.info-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin: 0 0 72px 0;
+    display: block;
+}
+.info-item{
+    display: block;
+}
+.info-list{
+    justify-content: center;
+}
 
 }
