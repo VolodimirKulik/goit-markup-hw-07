@@ -1237,7 +1237,7 @@ font-family: 'Roboto';
 }
 @media screen and (min-width:1200px) {
     .container{
-        width: 1440px;
+        width: 1158px;
     }
          .modal {
              width: 408px;
@@ -1337,8 +1337,8 @@ font-family: 'Roboto';
     }
     .service-title {
         padding: 188px 0px 0px 0px;
-        margin-left: 437px;
-        margin-right: 437px;
+        margin-left: 295px;
+        margin-right: 296px;
     }
     .service-btn{
         margin-top: 48px;
@@ -1373,7 +1373,8 @@ font-family: 'Roboto';
     .skill-list{
         width: 600px;
         flex-wrap: nowrap;
-        margin: 0px 0px 0px 81px;
+         margin: 0px 0px 0px 260px;
+        justify-content: center;
     }
     .container-footer-logo{
         width: 264px;
@@ -1381,6 +1382,7 @@ font-family: 'Roboto';
     }
     .container-footer{
         display: flex;
+        justify-content: center;
 }
 .container-footer-content{
     margin-right: 80px;
@@ -1393,6 +1395,13 @@ font-family: 'Roboto';
 }
 .footer-container-form{
     margin-top: 0px;
+}
+.footer-container-name{
+    display: flex;
+    margin-right: 129px;
+}
+.footer-button{
+    height: 40px;
 }
 .menu-open-btn{
     display: none;
